@@ -1,0 +1,31 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+@media (min-width: 1601px) {
+    #slider {
+        max-width: 1320px;
+        padding: 0 12px;
+        margin: auto;
+    }
+}
+
+
+.single-product .slide img {
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flex-control-nav.flex-control-thumbs li, .flex-control-nav.flex-control-thumbs li img {
+    object-fit: cover;
+    object-position: center;
+    height: 72px !important;
+}
+
+.quantity .quantity {
+    margin-right: 0;
+}
